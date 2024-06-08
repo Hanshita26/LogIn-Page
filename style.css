@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.Image1 {
+    height: 70vh;  
+    width: 100%;
+    object-fit: cover;
+}
+
+#heading1 {
+    position: absolute;
+    top: 8.2cm;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: gold;
+    font-size: 1.7em;
+}
+
+#heading2 {
+    position: absolute;
+    top: 9cm;
+    left: 50%;
+    transform: translateX(-50%);
+    color: gold;
+    font-size: 1.8em;
+}
+
+#btn {
+    display: block;
+    margin: 80px auto;
+    height: 1cm;
+    width: 9cm;
+    text-align: center;
+    border: 2px solid gold;
+    background-color: gold;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+}
+
+#btn:hover {
+    opacity: 0.5;
+}
+
+#facebook, #google, #signin {
+    height: 1cm;
+    display: block;
+    text-align: center;
+    width: 8cm;
+    border: 1px solid gold;
+    background-color: black;
+    color: gold;
+    border-radius: 5px;
+    margin-top: 0.3cm;
+    margin-left: 12cm;
+}
+
+#MainHeading {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.last {
+    text-align: center;
+    margin-top: 0.2cm;
+}
+
+#para2 {
+    font-weight: bold;
+}
+
+.loginSection {
+    padding: 4px;
+}
+
+
+@media (max-width: 1200px) {
+    #facebook, #google, #signin {
+        margin-left: 10cm;
+    }
+}
+
+@media (max-width: 992px) {
+    #facebook, #google, #signin {
+        margin-left: 8cm;
+    }
+
+    #heading1, #heading2 {
+        font-size: 1.5em;
+        top: 8.5cm;  
+    }
+
+    #btn {
+        width: 7cm;
+    }
+}
+
+@media (max-width: 768px) {
+    #facebook, #google, #signin {
+        margin-left: 6cm;
+    }
+
+    #heading1, #heading2 {
+        font-size: 1.3em;
+        top: 8.8cm;  
+    }
+
+    #btn {
+        width: 6cm;
+    }
+}
+
+@media (max-width: 576px) {
+    #facebook, #google, #signin {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #heading1, #heading2 {
+        font-size: 1.2em;
+        top: 9cm; 
+    }
+
+    #btn {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 400px) {
+    #heading1, #heading2 {
+        font-size: 1em;
+        top: 9.2cm;  
+    }
+
+    #btn {
+        width: 80%;
+        margin-left: 10%;
+    }
+} 
+
+ 
+
+ 
